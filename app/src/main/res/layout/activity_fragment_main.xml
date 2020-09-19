@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_focused"
+    tools:context=".fragment_main">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview1"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Person Details"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="40sp"
+                android:fontFamily="sans-serif-condensed-medium"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/newpersonname"
+                android:layout_below="@+id/textview1"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:hint="Enter name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/newemail"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:hint="Enter email"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_below="@+id/newpersonname"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/newrashi"
+                android:layout_marginTop="10dp"
+                android:hint="Enter person Rashi"
+                android:layout_margin="10dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_below="@+id/newemail"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/newpersonrel"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="Your Relation with the person"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_below="@+id/newrashi"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/newnakshat"
+                android:hint="Person Nakshatra"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_below="@id/newpersonrel"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/newdob"
+                android:layout_below="@+id/newnakshat"
+                android:layout_margin="10dp"
+                android:hint="Date Of Birth(DD|MM|YYYY)"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@id/newdob"
+                android:layout_margin="10dp"
+                android:id="@+id/newperson"
+                android:hint="Please enter the persons problems,few words about his personality."
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            />
+
+            <Button
+                android:id="@+id/persondetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/newperson"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Submit" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

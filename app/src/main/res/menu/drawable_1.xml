@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General">
+        <menu>
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/personfuture"
+            android:icon="@drawable/ic_baseline_person_outline_24"
+            android:title="Person future" />
+        <item
+            android:id="@+id/housevastu"
+            android:icon="@drawable/ic_baseline_attach_file_24"
+            android:title="House Vastu" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_call_missed_outgoing_24"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_baseline_contact_mail_24"
+                android:title="anuragnaren2108@gmail.com" />
+
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "834248861153",
+    "firebase_url": "https://vastu-65e4b.firebaseio.com",
+    "project_id": "vastu-65e4b",
+    "storage_bucket": "vastu-65e4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834248861153:android:b1a96f1b13f5fde4d8dea0",
+        "android_client_info": {
+          "package_name": "com.example.vastu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834248861153-80lvujq6jtf9us6vu00c8ui0lfl6qp7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vastu",
+            "certificate_hash": "46e5e238439f66b33320d7a4ef0ab29104c3d047"
+          }
+        },
+        {
+          "client_id": "834248861153-ddde94rhm3ruphotcqe7art7t5a3cvln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpb63kN5UVFpmGfkJCW6J7W1GTt_VZ4cE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834248861153-ddde94rhm3ruphotcqe7art7t5a3cvln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
